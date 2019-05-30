@@ -95,5 +95,5 @@ app
   .delete(UploadPropertyController.DeleteAllUploadedProperties)
   
 app.listen(port, () => {
-  console.log(`Server running at https://rent-inn-reactjs.herokuapp.com/:${port}`);
+  console.log(`Server running at https://rent-inn-reactjs.herokuapp.com/`);
 });
